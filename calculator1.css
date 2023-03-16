@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+main {
+    height: 100vh;
+    background-color: rgb(180, 124, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    height: 75vh;
+    background-color: rgb(20, 20, 85);
+    width: 35vh;
+    border-radius: 1.5rem;
+}
+main section .panel {
+    height: 35vh;
+    background-color: rgb(11, 11, 66);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+main section div .Solution1 {
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
